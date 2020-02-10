@@ -6,7 +6,7 @@ How to create a base cluster on Digital Ocean
 Create cluster
 
 1. In the main screen find the Create (green button) and click in it 
-1. Click Clusters in the dropdown
+2. Click Clusters in the dropdown
 1. Follow the steps of the Create a cluster screen
 1. Select the Kubernetes release you want to install (latest release currently is 1.16.6-do)
 1. Select the datacenter region you want to install the cluster into
