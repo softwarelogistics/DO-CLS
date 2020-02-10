@@ -1,0 +1,22 @@
+
+How to create a base cluster on Digital Ocean
+
+1. Log into DO
+
+Create cluster
+
+1. In the main screen find the Create (green button) and click in it 
+1. Click Clusters in the dropdown
+1. Follow the steps of the Create a cluster screen
+1. Select the Kubernetes release you want to install (latest release currently is 1.16.6-do)
+1. Select the datacenter region you want to install the cluster into
+1. Change the Node Pool Name to your liking
+1. Leave Machine Type (Droplet) at Standard Nodes unless you know you need more performance, this can alway be changed later anyhow
+1. Leave the Node Plan at the $10/Month level unless you know you need more performance, this can always be changed later anyhow
+1. Select the number of nodes:  There is always 1 master node (only exists to manage the cluster) and N-1 worker nodes
+1. Optionally add some tags
+1. Change the name to something you like
+1. Click create cluster
+
+The next screen shows you the creation in progress (top sliding bar) and also gives you next steps to follow, which you can ignore.
+
